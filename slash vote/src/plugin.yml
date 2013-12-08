@@ -1,0 +1,14 @@
+name: Slash Vote
+main: Teken.vote.vote
+version: 1.0
+commands:
+    vote:
+        description: This command will open up a vote link.
+        usage: /vote
+        permission: Teken.SlashVote.vote
+        permission-message: You don't have <permission>
+    votereload:
+        description: reloads vote text file.
+        usage: /votereload
+        permission: Teken.SlashVote.votereload
+        permission-message: You don't have <permission>
